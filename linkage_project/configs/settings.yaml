@@ -1,0 +1,21 @@
+weights:
+  last_name_sim: 0.40
+  first_name_sim: 0.30
+  dob_sim: 0.20
+  gender_sim: 0.05
+  hospnum_match: 0.05
+penalties:
+  is_left_name_missing: -0.03
+  is_right_name_missing: -0.03
+  mom_child_swap_flag: 0.02
+thresholds:
+  decision: 0.80
+  high_confidence: 0.93
+blocking:
+  method: sortedneighborhood
+  window: 15
+sampling:
+  band_0.70_0.80: 0.40
+  band_0.60_0.70: 0.30
+  band_0.50_0.60: 0.20
+  band_lt_0.50: 0.10
