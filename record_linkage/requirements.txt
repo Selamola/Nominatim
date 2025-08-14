@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+imblearn
+recordlinkage
+textdistance
+pyyaml
+pydantic
+python-dotenv
+typer[all]
+matplotlib
+joblib
+streamlit
+pyodbc
+requests
